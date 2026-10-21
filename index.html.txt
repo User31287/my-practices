@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои практические работы</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            color: #1e293b;
+        }
+
+        header {
+            background: #172554;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+        }
+
+        .work {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px #00000010;
+        }
+
+        .work a {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .work a:hover {
+            background: #1d4ed8;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Мои практические работы</h1>
+    <p>HTML и CSS</p>
+</header>
+
+<main>
+    <section class="work">
+        <h2>Практическая №1</h2>
+        <p>Первая работа</p>
+        <a href="praktica1/">Открыть</a>
+    </section>
+
+    <section class="work">
+        <h2>Практическая №2</h2>
+        <p>Вторая работа</p>
+        <a href="praktica2/">Открыть</a>
+    </section>
+
+    <section class="work">
+        <h2>Практическая №3</h2>
+        <p>Третья работа</p>
+        <a href="praktica3/">Открыть</a>
+    </section>
+
+    <section class="work">
+        <h2>Практическая №4</h2>
+        <p>Четвёртая работа</p>
+        <a href="praktica4/">Открыть</a>
+    </section>
+
+    <section class="work">
+        <h2>Практическая №5</h2>
+        <p>Пятая работа</p>
+        <a href="praktica5/">Открыть</a>
+    </section>
+
+    <section class="work">
+        <h2>Практическая №6</h2>
+        <p>Шестая работа</p>
+        <a href="praktica6/">Открыть</a>
+    </section>
+</main>
+
+</body>
+</html>
