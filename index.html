@@ -5,95 +5,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мои практические работы</title>
+
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             margin: 0;
+            padding: 40px 20px;
             font-family: Arial, sans-serif;
             background: #f1f5f9;
             color: #1e293b;
         }
 
-        header {
-            background: #172554;
-            color: white;
+        h1 {
             text-align: center;
-            padding: 40px 20px;
+            margin-bottom: 12px;
         }
 
-        main {
+        .subtitle {
+            text-align: center;
+            color: #64748b;
+            margin-bottom: 35px;
+        }
+
+        .works {
             max-width: 900px;
-            margin: 30px auto;
-            padding: 20px;
+            margin: 0 auto;
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
             gap: 20px;
         }
 
-        .work {
+        .card {
             background: white;
             padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 3px 12px #00000010;
+            border-radius: 14px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+            text-align: center;
         }
 
-        .work a {
+        .card h2 {
+            font-size: 19px;
+            margin-top: 0;
+        }
+
+        .card a {
             display: inline-block;
-            padding: 10px 15px;
+            padding: 11px 18px;
             background: #2563eb;
             color: white;
             text-decoration: none;
-            border-radius: 6px;
+            border-radius: 8px;
+            margin-top: 8px;
         }
 
-        .work a:hover {
+        .card a:hover {
             background: #1d4ed8;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 35px;
+            color: #64748b;
+            font-size: 14px;
         }
     </style>
 </head>
+
 <body>
-
-<header>
     <h1>Мои практические работы</h1>
-    <p>HTML и CSS</p>
-</header>
+    <p class="subtitle">Выберите работу, чтобы открыть её</p>
 
-<main>
-    <section class="work">
-        <h2>Практическая №1</h2>
-        <p>Первая работа</p>
-        <a href="praktica1/">Открыть</a>
-    </section>
+    <main class="works">
+        <section class="card">
+            <h2>Практическая работа №1</h2>
+            <a href="Практическая%20работа%20%E2%84%961/Poezia_dupa_varianta.html">Открыть работу</a>
+        </section>
 
-    <section class="work">
-        <h2>Практическая №2</h2>
-        <p>Вторая работа</p>
-        <a href="praktica2/">Открыть</a>
-    </section>
+        <section class="card">
+            <h2>Практическая работа №2</h2>
+            <a href="Практическая%20работа%20%E2%84%962/liste.html">Открыть работу</a>
+        </section>
 
-    <section class="work">
-        <h2>Практическая №3</h2>
-        <p>Третья работа</p>
-        <a href="praktica3/">Открыть</a>
-    </section>
+        <section class="card">
+            <h2>Практическая работа №3</h2>
+            <a href="Практическая%20работа%20%E2%84%963/obiect.html">Открыть работу</a>
+        </section>
 
-    <section class="work">
-        <h2>Практическая №4</h2>
-        <p>Четвёртая работа</p>
-        <a href="praktica4/">Открыть</a>
-    </section>
+        <section class="card">
+            <h2>Практическая работа №4</h2>
+            <a href="Практическая%20работа%20%E2%84%964/hiperlegaturi.html">Открыть работу</a>
+        </section>
 
-    <section class="work">
-        <h2>Практическая №5</h2>
-        <p>Пятая работа</p>
-        <a href="praktica5/">Открыть</a>
-    </section>
+        <section class="card">
+            <h2>Практическая работа №5</h2>
+            <a href="Практическая%20работа%20%E2%84%965/tabele.html">Открыть работу</a>
+        </section>
 
-    <section class="work">
-        <h2>Практическая №6</h2>
-        <p>Шестая работа</p>
-        <a href="praktica6/">Открыть</a>
-    </section>
-</main>
+        <section class="card">
+            <h2>Практическая работа №6</h2>
+            <a href="Практическая%20работа%20%E2%84%966/index.html">Открыть работу</a>
+        </section>
+    </main>
 
+    <footer>
+        Практические работы по информатике и веб-разработке
+    </footer>
 </body>
 </html>
+
